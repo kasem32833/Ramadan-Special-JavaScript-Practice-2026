@@ -32,6 +32,41 @@
 
     let fruits = ["Mango", "Banana", "Lichi", ]
 
+    console.log(fruits[2]);
+
+    fruits[2] = "jackfruits"
+
+    console.log(fruits);
+
+    let text =  "Web Warrior";
+
+    console.log(text[0]);
+
+    text[0] =  "D";
+
+    console.log(text);
+
+
 
     //array কে array() দিয়ে ও প্রকাশ করা যায়
+
+    // immutable এর ভ্যালু এর উপর compare করা যায়।
+    // mutable এর refference এর উপর depend করতে হয়
+
+    let numOne = 4;
+    let numTwo = 4;
+
+    console.log(numOne === numTwo);
+
+    let userOne = {
+        name : "Abul",
+        age: 39
+    }
+
+    let userTwo = {
+        name : "Abul",
+        age: 39
+    }
+
+    console.log(userOne === userTwo);
 
